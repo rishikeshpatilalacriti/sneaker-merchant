@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: backend
+
+server:
+  port: 8080
+
+payment:
+  gateway:
+    url: http://localhost:8081
+
+logging:
+  level:
+    com.sneakermerchant.backend: DEBUG

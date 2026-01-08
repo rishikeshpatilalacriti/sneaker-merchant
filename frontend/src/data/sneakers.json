@@ -1,0 +1,543 @@
+[
+  {
+    "id": 1,
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "price": 12999,
+    "description": "Nike Air Max 270 features biggest heel Air unit yet for a super-soft ride.",
+    "imageUrl": "/src/assets/Nike1.jpg",
+    "stockQuantity": 10
+  },
+  {
+    "id": 2,
+    "name": "Air Force 1",
+    "brand": "Nike",
+    "price": 8999,
+    "description": "Nike Air Force 1 - The iconic basketball shoe with timeless style.",
+    "imageUrl": "/src/assets/Nike2.jpg",
+    "stockQuantity": 15
+  },
+  {
+    "id": 3,
+    "name": "React Infinity",
+    "brand": "Nike",
+    "price": 13999,
+    "description": "Nike React Infinity Run - Designed to keep you running with responsive cushioning.",
+    "imageUrl": "/src/assets/Nike3.jpg",
+    "stockQuantity": 12
+  },
+  {
+    "id": 4,
+    "name": "Pegasus 40",
+    "brand": "Nike",
+    "price": 11999,
+    "description": "Nike Pegasus 40 - Trusted workhorse with responsive cushioning for everyday runs.",
+    "imageUrl": "/src/assets/Nike4.jpg",
+    "stockQuantity": 8
+  },
+  {
+    "id": 5,
+    "name": "ZoomX Vaporfly",
+    "brand": "Nike",
+    "price": 24999,
+    "description": "Nike ZoomX Vaporfly - Elite racing shoe with carbon fiber plate.",
+    "imageUrl": "/src/assets/Nike5.jpg",
+    "stockQuantity": 5
+  },
+  {
+    "id": 6,
+    "name": "Dunk Low",
+    "brand": "Nike",
+    "price": 9999,
+    "description": "Nike Dunk Low - Classic basketball silhouette turned streetwear icon.",
+    "imageUrl": "/src/assets/Nike6.jpg",
+    "stockQuantity": 18
+  },
+  {
+    "id": 7,
+    "name": "Blazer Mid",
+    "brand": "Nike",
+    "price": 8499,
+    "description": "Nike Blazer Mid - Vintage basketball style with retro appeal.",
+    "imageUrl": "/src/assets/Nike7.jpg",
+    "stockQuantity": 14
+  },
+  {
+    "id": 8,
+    "name": "Cortez",
+    "brand": "Nike",
+    "price": 7499,
+    "description": "Nike Cortez - Legendary running shoe with heritage styling.",
+    "imageUrl": "/src/assets/Nike8.jpg",
+    "stockQuantity": 20
+  },
+  {
+    "id": 9,
+    "name": "Air Jordan 1",
+    "brand": "Nike",
+    "price": 18999,
+    "description": "Nike Air Jordan 1 - The sneaker that started the Jordan legacy.",
+    "imageUrl": "/src/assets/Nike9.jpg",
+    "stockQuantity": 6
+  },
+  {
+    "id": 10,
+    "name": "Air Max 90",
+    "brand": "Nike",
+    "price": 11499,
+    "description": "Nike Air Max 90 - Iconic design with visible Air cushioning.",
+    "imageUrl": "/src/assets/Nike10.jpg",
+    "stockQuantity": 11
+  },
+  {
+    "id": 11,
+    "name": "Air Max 97",
+    "brand": "Nike",
+    "price": 16999,
+    "description": "Nike Air Max 97 - Sleek design inspired by Japanese bullet trains.",
+    "imageUrl": "/src/assets/Nike11.jpg",
+    "stockQuantity": 9
+  },
+  {
+    "id": 12,
+    "name": "Joyride Run",
+    "brand": "Nike",
+    "price": 13499,
+    "description": "Nike Joyride Run - Revolutionary cushioning with tiny foam beads.",
+    "imageUrl": "/src/assets/Nike12.jpg",
+    "stockQuantity": 7
+  },
+  {
+    "id": 13,
+    "name": "Free RN 5.0",
+    "brand": "Nike",
+    "price": 9999,
+    "description": "Nike Free RN 5.0 - Natural motion running shoe with flexible sole.",
+    "imageUrl": "/src/assets/Nike13.jpg",
+    "stockQuantity": 13
+  },
+  {
+    "id": 14,
+    "name": "Metcon 8",
+    "brand": "Nike",
+    "price": 12999,
+    "description": "Nike Metcon 8 - Training shoe built for intense workouts.",
+    "imageUrl": "/src/assets/Nike14.jpg",
+    "stockQuantity": 10
+  },
+  {
+    "id": 15,
+    "name": "Tiempo Legend",
+    "brand": "Nike",
+    "price": 19999,
+    "description": "Nike Tiempo Legend - Premium leather football boot for elite players.",
+    "imageUrl": "/src/assets/Nike15.jpg",
+    "stockQuantity": 8
+  },
+  {
+    "id": 16,
+    "name": "Revolution 6",
+    "brand": "Nike",
+    "price": 5999,
+    "description": "Nike Revolution 6 - Affordable everyday running shoe with soft cushioning.",
+    "imageUrl": "/src/assets/Nike16.jpg",
+    "stockQuantity": 25
+  },
+  {
+    "id": 17,
+    "name": "Air Zoom Pegasus",
+    "brand": "Nike",
+    "price": 10999,
+    "description": "Nike Air Zoom Pegasus - Responsive Zoom Air for fast-paced runs.",
+    "imageUrl": "/src/assets/Nike17.jpg",
+    "stockQuantity": 12
+  },
+  {
+    "id": 18,
+    "name": "Waffle One",
+    "brand": "Nike",
+    "price": 9499,
+    "description": "Nike Waffle One - Retro running design with modern comfort.",
+    "imageUrl": "/src/assets/Nike18.jpg",
+    "stockQuantity": 16
+  },
+  {
+    "id": 19,
+    "name": "SB Dunk High",
+    "brand": "Nike",
+    "price": 11999,
+    "description": "Nike SB Dunk High - Skateboarding shoe with padded collar and durable construction.",
+    "imageUrl": "/src/assets/Nike19.jpg",
+    "stockQuantity": 14
+  },
+  {
+    "id": 20,
+    "name": "Infinity React",
+    "brand": "Nike",
+    "price": 14999,
+    "description": "Nike Infinity React - Injury-reducing design with plush React foam.",
+    "imageUrl": "/src/assets/Nike20.jpg",
+    "stockQuantity": 9
+  },
+  {
+    "id": 21,
+    "name": "574 Core",
+    "brand": "New Balance",
+    "price": 7999,
+    "description": "Classic running silhouette with ENCAP midsole cushioning technology.",
+    "imageUrl": "/src/assets/NewBalance1.jpg",
+    "stockQuantity": 15
+  },
+  {
+    "id": 22,
+    "name": "990v5",
+    "brand": "New Balance",
+    "price": 17499,
+    "description": "Premium Made in USA sneaker with ENCAP and ABZORB cushioning.",
+    "imageUrl": "/src/assets/NewBalance2.jpg",
+    "stockQuantity": 10
+  },
+  {
+    "id": 23,
+    "name": "327",
+    "brand": "New Balance",
+    "price": 8999,
+    "description": "Retro-inspired design with modern comfort and oversized N branding.",
+    "imageUrl": "/src/assets/NewBalance3.jpg",
+    "stockQuantity": 20
+  },
+  {
+    "id": 24,
+    "name": "550",
+    "brand": "New Balance",
+    "price": 11999,
+    "description": "Basketball heritage style with vintage court aesthetics.",
+    "imageUrl": "/src/assets/NewBalance4.jpg",
+    "stockQuantity": 12
+  },
+  {
+    "id": 25,
+    "name": "Fresh Foam 1080v12",
+    "brand": "New Balance",
+    "price": 14999,
+    "description": "Maximum cushioning running shoe with Fresh Foam technology.",
+    "imageUrl": "/src/assets/NewBalance5.jpg",
+    "stockQuantity": 8
+  },
+  {
+    "id": 26,
+    "name": "FuelCell Rebel v3",
+    "brand": "New Balance",
+    "price": 13499,
+    "description": "Lightweight racing shoe with FuelCell midsole for explosive speed.",
+    "imageUrl": "/src/assets/NewBalance6.jpg",
+    "stockQuantity": 10
+  },
+  {
+    "id": 27,
+    "name": "2002R",
+    "brand": "New Balance",
+    "price": 15999,
+    "description": "Y2K inspired design with N-ergy and ABZORB cushioning systems.",
+    "imageUrl": "/src/assets/NewBalance7.jpg",
+    "stockQuantity": 7
+  },
+  {
+    "id": 28,
+    "name": "237",
+    "brand": "New Balance",
+    "price": 7499,
+    "description": "Streamlined retro runner with asymmetrical design elements.",
+    "imageUrl": "/src/assets/NewBalance8.jpg",
+    "stockQuantity": 18
+  },
+  {
+    "id": 29,
+    "name": "997H",
+    "brand": "New Balance",
+    "price": 9499,
+    "description": "Heritage running shoe with REVlite midsole technology.",
+    "imageUrl": "/src/assets/NewBalance9.jpg",
+    "stockQuantity": 14
+  },
+  {
+    "id": 30,
+    "name": "Fresh Foam X 880v13",
+    "brand": "New Balance",
+    "price": 12999,
+    "description": "Versatile daily trainer with balanced cushioning and support.",
+    "imageUrl": "/src/assets/NewBalance10.jpg",
+    "stockQuantity": 11
+  },
+  {
+    "id": 31,
+    "name": "FuelCell SuperComp",
+    "brand": "New Balance",
+    "price": 18999,
+    "description": "High-performance training shoe with carbon fiber plate.",
+    "imageUrl": "/src/assets/NewBalance11.jpg",
+    "stockQuantity": 5
+  },
+  {
+    "id": 32,
+    "name": "Fresh Foam More v4",
+    "brand": "New Balance",
+    "price": 14499,
+    "description": "Ultra-plush cushioning for maximum comfort on long runs.",
+    "imageUrl": "/src/assets/NewBalance12.jpg",
+    "stockQuantity": 9
+  },
+  {
+    "id": 33,
+    "name": "860v13",
+    "brand": "New Balance",
+    "price": 12499,
+    "description": "Stability running shoe with dual-density medial post.",
+    "imageUrl": "/src/assets/NewBalance13.jpg",
+    "stockQuantity": 13
+  },
+  {
+    "id": 34,
+    "name": "1500 Made in UK",
+    "brand": "New Balance",
+    "price": 19999,
+    "description": "Premium British-made sneaker with heritage craftsmanship.",
+    "imageUrl": "/src/assets/NewBalance14.jpg",
+    "stockQuantity": 6
+  },
+  {
+    "id": 35,
+    "name": "Fresh Foam Vongo v6",
+    "brand": "New Balance",
+    "price": 13999,
+    "description": "Stability shoe with Fresh Foam cushioning and medial post.",
+    "imageUrl": "/src/assets/NewBalance15.jpg",
+    "stockQuantity": 10
+  },
+  {
+    "id": 36,
+    "name": "XC-72",
+    "brand": "New Balance",
+    "price": 10999,
+    "description": "Bold retro design inspired by 70s concept cars.",
+    "imageUrl": "/src/assets/NewBalance16.jpg",
+    "stockQuantity": 15
+  },
+  {
+    "id": 37,
+    "name": "Fresh Foam Hierro v7",
+    "brand": "New Balance",
+    "price": 13499,
+    "description": "Trail running shoe with Vibram Megagrip outsole.",
+    "imageUrl": "/src/assets/NewBalance17.jpg",
+    "stockQuantity": 8
+  },
+  {
+    "id": 38,
+    "name": "FuelCell RC Elite v3",
+    "brand": "New Balance",
+    "price": 24999,
+    "description": "Elite racing shoe with carbon fiber plate for marathon performance.",
+    "imageUrl": "/src/assets/NewBalance18.jpg",
+    "stockQuantity": 4
+  },
+  {
+    "id": 39,
+    "name": "530",
+    "brand": "New Balance",
+    "price": 8499,
+    "description": "Retro lifestyle sneaker with ABZORB cushioning technology.",
+    "imageUrl": "/src/assets/NewBalance19.jpg",
+    "stockQuantity": 17
+  },
+  {
+    "id": 40,
+    "name": "9060",
+    "brand": "New Balance",
+    "price": 14999,
+    "description": "Contemporary lifestyle shoe with visible ABZORB cushioning pods.",
+    "imageUrl": "/src/assets/NewBalance20.jpg",
+    "stockQuantity": 11
+  },
+{
+  "id": 41,
+  "name": "RedTape Classic Runner",
+  "brand": "RedTape",
+  "price": 5999,
+  "description": "Comfortable everyday running shoe with lightweight cushioning.",
+  "imageUrl": "/src/assets/RedTape1.jpg",
+  "stockQuantity": 12
+},
+{
+  "id": 42,
+  "name": "RedTape Urban Walk",
+  "brand": "RedTape",
+  "price": 5499,
+  "description": "Stylish walking shoes designed for long-lasting comfort.",
+  "imageUrl": "/src/assets/RedTape2.jpg",
+  "stockQuantity": 15
+},
+{
+  "id": 43,
+  "name": "RedTape Flex Pro",
+  "brand": "RedTape",
+  "price": 6299,
+  "description": "Flexible sole with breathable mesh for daily workouts.",
+  "imageUrl": "/src/assets/RedTape3.jpg",
+  "stockQuantity": 10
+},
+{
+  "id": 44,
+  "name": "RedTape Street Smart",
+  "brand": "RedTape",
+  "price": 6999,
+  "description": "Street-style sneaker with premium finish.",
+  "imageUrl": "/src/assets/RedTape4.jpg",
+  "stockQuantity": 9
+},
+{
+  "id": 45,
+  "name": "RedTape Motion Plus",
+  "brand": "RedTape",
+  "price": 5799,
+  "description": "All-day comfort shoe with shock-absorbing midsole.",
+  "imageUrl": "/src/assets/RedTape5.jpg",
+  "stockQuantity": 14
+},
+{
+  "id": 46,
+  "name": "RedTape Active Max",
+  "brand": "RedTape",
+  "price": 6499,
+  "description": "High-performance sports shoe for running and training.",
+  "imageUrl": "/src/assets/RedTape6.jpg",
+  "stockQuantity": 8
+},
+{
+  "id": 47,
+  "name": "RedTape Casual Lite",
+  "brand": "RedTape",
+  "price": 4999,
+  "description": "Lightweight casual sneaker for everyday use.",
+  "imageUrl": "/src/assets/RedTape7.jpg",
+  "stockQuantity": 20
+},
+{
+  "id": 48,
+  "name": "RedTape Power Grip",
+  "brand": "RedTape",
+  "price": 7199,
+  "description": "Durable outsole with enhanced grip for rough use.",
+  "imageUrl": "/src/assets/RedTape8.jpg",
+  "stockQuantity": 7
+},
+{
+  "id": 49,
+  "name": "RedTape Sprint X",
+  "brand": "RedTape",
+  "price": 6899,
+  "description": "Speed-focused design with cushioned heel support.",
+  "imageUrl": "/src/assets/RedTape9.jpg",
+  "stockQuantity": 11
+},
+{
+  "id": 50,
+  "name": "RedTape Comfort Pro",
+  "brand": "RedTape",
+  "price": 5599,
+  "description": "Maximum comfort shoe for extended wear.",
+  "imageUrl": "/src/assets/RedTape10.jpg",
+  "stockQuantity": 16
+},
+{
+  "id": 51,
+  "name": "Skechers Go Walk",
+  "brand": "Skechers",
+  "price": 7499,
+  "description": "Ultra-light walking shoe with responsive cushioning.",
+  "imageUrl": "/src/assets/Sketchers1.jpg",
+  "stockQuantity": 18
+},
+{
+  "id": 52,
+  "name": "Skechers Arch Fit",
+  "brand": "Skechers",
+  "price": 8999,
+  "description": "Arch Fit insole system for superior foot support.",
+  "imageUrl": "/src/assets/Sketchers2.jpg",
+  "stockQuantity": 10
+},
+{
+  "id": 53,
+  "name": "Skechers D'Lites",
+  "brand": "Skechers",
+  "price": 8299,
+  "description": "Chunky retro sneaker with modern comfort.",
+  "imageUrl": "/src/assets/Sketchers3.jpg",
+  "stockQuantity": 9
+},
+{
+  "id": 54,
+  "name": "Skechers Max Cushioning",
+  "brand": "Skechers",
+  "price": 9999,
+  "description": "Extra thick cushioning for long-distance comfort.",
+  "imageUrl": "/src/assets/Sketchers4.jpg",
+  "stockQuantity": 6
+},
+{
+  "id": 55,
+  "name": "Skechers Flex Appeal",
+  "brand": "Skechers",
+  "price": 6999,
+  "description": "Flexible training shoe with breathable mesh upper.",
+  "imageUrl": "/src/assets/Sketchers5.jpg",
+  "stockQuantity": 14
+},
+{
+  "id": 56,
+  "name": "Skechers Go Run",
+  "brand": "Skechers",
+  "price": 9499,
+  "description": "Performance running shoe with lightweight foam.",
+  "imageUrl": "/src/assets/Sketchers6.jpg",
+  "stockQuantity": 8
+},
+{
+  "id": 57,
+  "name": "Skechers Uno",
+  "brand": "Skechers",
+  "price": 7999,
+  "description": "Fashion-forward sneaker with air-cushioned midsole.",
+  "imageUrl": "/src/assets/Sketchers7.jpg",
+  "stockQuantity": 13
+},
+{
+  "id": 58,
+  "name": "Skechers Summits",
+  "brand": "Skechers",
+  "price": 6799,
+  "description": "Slip-on athletic shoe with memory foam comfort.",
+  "imageUrl": "/src/assets/Sketchers8.jpg",
+  "stockQuantity": 17
+},
+{
+  "id": 59,
+  "name": "Skechers Track",
+  "brand": "Skechers",
+  "price": 7199,
+  "description": "Training shoe built for gym and daily workouts.",
+  "imageUrl": "/src/assets/Sketchers9.jpg",
+  "stockQuantity": 11
+},
+{
+  "id": 60,
+  "name": "Skechers Ultra Flex",
+  "brand": "Skechers",
+  "price": 8599,
+  "description": "Stretch-fit design with flexible sole for easy movement.",
+  "imageUrl": "/src/assets/Sketchers10.jpg",
+  "stockQuantity": 10
+}
+
+]
