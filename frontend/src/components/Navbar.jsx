@@ -18,8 +18,14 @@ function Navbar() {
 
           <div className="flex items-center space-x-4">
             <button
+  onClick={() => navigate('/check-payment')}
+  className="bg-blue-600 hover:bg-black text-white px-4 py-2 rounded-none font-poppins  hover:shadow-md transition-all duration-300"
+>
+  Check Payment
+</button>
+            <button
               onClick={() => navigate('/transactions')}
-              className="bg-primary text-white px-4 py-2 rounded-none font-poppins hover:bg-black hover:shadow-md transition-all duration-300"
+              className="bg-blue-600 hover:bg-black text-white px-4 py-2 rounded-none font-poppins  hover:shadow-md transition-all duration-300"
             >
               Show Transactions
             </button>

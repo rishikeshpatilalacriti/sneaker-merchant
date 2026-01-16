@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
 function SneakerCard({ sneaker }) {
+  
   const navigate = useNavigate();
 
   const handleCardClick = () => {
@@ -41,7 +42,7 @@ function SneakerCard({ sneaker }) {
         <button
           onClick={handleBuyNow}
           disabled={sneaker.stockQuantity === 0}
-          className="w-full bg-primary text-white py-2 rounded-none font-poppins hover:bg-black hover:shadow-md transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
+          className="w-full bg-blue-600 hover:bg-black text-white py-2 rounded-none font-poppins  hover:shadow-md transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
         >
           {sneaker.stockQuantity === 0 ? 'Out of Stock' : 'Buy Now'}
         </button>

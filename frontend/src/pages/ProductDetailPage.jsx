@@ -88,7 +88,7 @@ function ProductDetailPage() {
             <button
               onClick={handleBuyNow}
               disabled={sneaker.stockQuantity === 0}
-              className="w-full bg-primary text-white py-4 rounded-none font-poppins font-semibold text-lg hover:bg-black hover:shadow-md transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
+              className="w-full bg-blue-600 hover:bg-black text-white py-4 rounded-none font-poppins font-semibold text-lg  hover:shadow-md transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
             >
               {sneaker.stockQuantity === 0 ? 'Out of Stock' : 'Buy Now'}
             </button>

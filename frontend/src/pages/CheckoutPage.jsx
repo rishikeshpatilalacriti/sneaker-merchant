@@ -8,7 +8,6 @@ function CheckoutPage() {
   const location = useLocation();
   const [sneaker, setSneaker] = useState(null);
   const [loading, setLoading] = useState(false);
-
   const [cardDetails, setCardDetails] = useState({
     cardNumber: '',
     cardholderName: '',
@@ -24,6 +23,7 @@ function CheckoutPage() {
     setSneaker(location.state.sneaker);
   }, [navigate, location]);
 
+  //these are the functions okay and above are the state hooks
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCardDetails({
@@ -200,7 +200,7 @@ function CheckoutPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-primary text-white py-3 rounded-none font-poppins font-semibold hover:bg-black hover:shadow-md transition-all duration-300 disabled:bg-gray-400 disabled:cursor-not-allowed"
+                className="w-full bg-blue-600 hover:bg-black text-white py-3 rounded-none font-poppins font-semibold hover:shadow-md transition-all duration-300 disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 {loading ? 'Processing...' : `Pay ₹${sneaker.price.toLocaleString()}`}
               </button>

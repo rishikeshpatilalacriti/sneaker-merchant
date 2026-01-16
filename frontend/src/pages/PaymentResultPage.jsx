@@ -20,7 +20,6 @@ function PaymentResultPage() {
   }
 
   const isSuccess = paymentDetails.status === 'success';
-
   const maskCardNumber = (cardNumber) => {
     if (!cardNumber) return '';
     return `**** **** **** ${cardNumber.slice(-4)}`;
@@ -130,7 +129,7 @@ function PaymentResultPage() {
           <div className="space-y-5">
             <button
               onClick={() => navigate('/')}
-              className="w-full bg-primary text-white py-5 rounded-none font-poppins font-semibold hover:bg-black hover:shadow-md transition-all duration-300"
+              className="w-full bg-blue-600 hover:bg-black text-white py-5 rounded-none font-poppins font-semibold  hover:shadow-md transition-all duration-300"
             >
               {isSuccess ? 'Continue Shopping' : 'Back to Home'}
             </button>
